@@ -1,0 +1,104 @@
+# Go build artifacts
+*.exe
+*.out
+*.test
+*.a
+*.o
+*.so
+
+# Go dependency and build directories
+/bin/
+/pkg/
+/vendor/
+/cover.out
+/dist/
+
+# Go module files (DO NOT ignore go.mod if you want dependencies tracked)
+# go.mod should be committed; Uncomment only if ignoring workspace files
+# go.sum (can be committed, or ignored if preferred)
+go.work
+go.work.sum
+
+# Ignore Go cache and temp dependency files
+*.db
+*.lock
+
+# IDE - GoLand / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# JetBrains-specific logs and files
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/misc.xml
+/.idea/libraries/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*~.nib
+
+# IDE - Visual Studio Code (VS Code)
+.vscode/
+*.code-workspace
+
+# Go test cache
+/testdata/
+/tmp/
+/benchmarks/
+/prof.out
+
+# Logs and debugging files
+*.log
+*.log.*
+*.trace
+*.prof
+*.pprof
+*.cov
+*.coverage
+
+# Dependency and environment-related files
+.env
+.envrc
+*.env.local
+*.secrets
+.DS_Store
+
+# Node-related files (if frontend present in Go project)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# System-specific files
+Thumbs.db
+ehthumbs.db
+*.bak
+*~
+
+# GoReleaser artifacts (if used for builds)
+build/
+dist/
+
+# Golang dependency tools (like dep, glide)
+Gopkg.lock
+Gopkg.toml
+glide.lock
+glide.yaml
+
+# IDE-specific temp files
+*.sublime-workspace
+*.sublime-project
+
+# Ignore binaries from compilation
+**/*.exe
+**/*.dll
+**/*.dylib
+**/*.so
+
+# Miscellaneous
+*.sqlite
+*.sqlite3
