@@ -9,14 +9,15 @@ func main() {
 }
 
 func classicLoop() {
-	for x := 0; x < 10; x++ {
+	for x := 0; x < 2; x++ {
 		fmt.Println(x)
 	}
 }
+
 func rangeKeyLoop() {
 	// create array
-	var fruits = []string{"Apple", "Orange", "Banana", "Grape"}
-	for index, fruit := range fruits {
-		fmt.Printf("Index: %d, Fruit: %s\n", index, fruit)
+	var fruits = []string{"apple", "banana", "Grapes"}
+	for index, value := range fruits {
+		fmt.Printf("Array Index is %d and Value is %s \n", index, value)
 	}
 }
